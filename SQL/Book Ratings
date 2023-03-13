@@ -1,0 +1,23 @@
+/*rating books from 1-10:
+Maze Runner 8/10
+Ink Heart 6/10
+Eragon 7/10
+Twilight 1/10
+The Uglies 6/10
+Airhead 10/10*/
+
+create TABLE books
+(ID integer primary key, Name text, Rating integer);
+
+INSERT into books
+
+VALUES
+(1, 'Maze Runner', 8),
+(2, 'Ink Heart', 6),
+(3, 'Eragon', 7),
+(4, 'Twilight', 1),
+(5, 'The Uglies', 6),
+(6, 'Airhead', 10)
+;
+
+select * from books
